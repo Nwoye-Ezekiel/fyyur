@@ -1,0 +1,8 @@
+initiate a virtual environment
+=> source venv/Scripts/activate
+
+deactivate a virtual environment
+=> deactivate
+
+install required dependencies
+=> pip install -r requirements.txt
