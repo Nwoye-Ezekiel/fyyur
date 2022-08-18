@@ -4,3 +4,172 @@
 2022-08-15 11:04:05,589 INFO: errors [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
 2022-08-15 11:04:26,572 INFO: errors [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
 2022-08-15 11:07:16,424 INFO: errors [in c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
+2022-08-15 19:16:55,495 INFO: errors [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
+2022-08-15 21:51:11,913 ERROR: Exception on /artists/1 [GET] [in c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 352, in show_artist
+    "venue_id": 3,
+IndexError: list index out of range
+2022-08-17 08:37:26,279 INFO: errors [in c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:526]
+2022-08-17 09:24:45,658 INFO: errors [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:534]
+2022-08-17 09:24:58,586 INFO: errors [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:534]
+2022-08-17 09:48:51,618 ERROR: Exception on /artists/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 440, in create_artist_submission
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 14:46:22,369 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 14:48:11,241 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 14:57:37,943 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 15:00:33,751 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 15:00:38,035 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 15:01:40,983 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 15:08:22,203 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-17 15:08:48,090 ERROR: Exception on /venues/create [POST] [in C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 246, in create_venue_submission
+    "name": "Guns N Petals",
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Zukki\Documents\Udacity Projects\Full Stack\Fyyur\cd0046-SQL-and-Data-Modeling-for-the-Web\venv\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
