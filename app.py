@@ -2,18 +2,18 @@
 # Imports
 # --------------------------------------------------------------------------- #
 
+import sys 
 import json
-import sys
-import dateutil.parser
 import babel
-from flask import Flask, render_template, request, flash, redirect, url_for
-from flask_moment import Moment
 import logging
-from logging import Formatter, FileHandler
-from flask_wtf import Form
+import dateutil.parser
 from forms import *
+from flask_wtf import Form
+from flask_moment import Moment
 from flask_migrate import Migrate
 from models import db, Venue, Artist, Show
+from logging import Formatter, FileHandler
+from flask import Flask, render_template, request, flash, redirect, url_for
 
 
 # --------------------------------------------------------------------------- #
@@ -498,7 +498,6 @@ def create_show_submission():
 # --------------------------------------------------------------------------- #
 # Error Handlers
 # --------------------------------------------------------------------------- #
-
 # Page Not Found ------------------------------------------------------------ #
 
 @app.errorhandler(404)
