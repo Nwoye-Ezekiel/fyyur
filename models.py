@@ -14,11 +14,11 @@ class Venue(db.Model):
     city = db.Column(db.String(120), nullable=False)
     state = db.Column(db.String(120), nullable=False)
     address = db.Column(db.String(120), nullable=False)
-    phone = db.Column(db.String(120), nullable=False)
+    phone = db.Column(db.String(120))
     genres = db.Column(db.ARRAY(db.String(120)), nullable=False)
     facebook_link = db.Column(db.String(500), nullable=False)
-    image_link = db.Column(db.String(500), nullable=False)
-    website = db.Column(db.String(500), nullable=False)
+    image_link = db.Column(db.String(500))
+    website = db.Column(db.String(500))
     seeking_talent = db.Column(db.Boolean, nullable=False, default=False)
     seeking_description = db.Column(db.String(500))
     created_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
@@ -27,7 +27,7 @@ class Venue(db.Model):
     def __repr__(self): 
       return f'<Venue id:{self.id} name:{self.name} state:{self.state} city:{self.city}>'
 
-#-------------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------#
 
 class Artist(db.Model):
     __tablename__ = 'artists'
@@ -36,11 +36,11 @@ class Artist(db.Model):
     name = db.Column(db.String(120), nullable=False)
     city = db.Column(db.String(120), nullable=False)
     state = db.Column(db.String(120), nullable=False)
-    phone = db.Column(db.String(120), nullable=False)
+    phone = db.Column(db.String(120))
     genres = db.Column(db.ARRAY(db.String(120)), nullable=False)
     facebook_link = db.Column(db.String(500), nullable=False)
-    image_link = db.Column(db.String(500), nullable=False)
-    website = db.Column(db.String(500), nullable=False)
+    image_link = db.Column(db.String(500))
+    website = db.Column(db.String(500))
     seeking_venue = db.Column(db.Boolean, nullable=False, default=False)
     seeking_description = db.Column(db.String(500))
     created_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
@@ -49,10 +49,11 @@ class Artist(db.Model):
     def __repr__(self):
       return f'<Artist id:{self.id} name:{self.name} state:{self.state} city:{self.city}>'
 
-#-------------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------#
 
 class Show(db.Model):
     __tablename__ = 'shows'
+
     id = db.Column(db.Integer, primary_key=True)
     venue_id = db.Column(db.Integer, db.ForeignKey('venues.id'), nullable=False)
     artist_id = db.Column(db.Integer, db.ForeignKey('artists.id'), nullable=False)
